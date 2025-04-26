@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media (user-uploaded files)
+media/
+
+# Static files
+staticfiles/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode or IDE settings
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Migrations (optional: only if you auto-generate)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# dotenv files
+.env
+*.env
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
